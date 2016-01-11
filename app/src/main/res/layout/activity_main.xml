@@ -16,31 +16,38 @@
         android:orientation="horizontal">
 
         <RadioGroup
+            android:id="@+id/radioGroupId"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:orientation="horizontal">
             <RadioButton
+                android:id="@+id/rbtuijianId"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text="推荐"
                 android:textSize="16sp"
+                android:textColor="@color/huise"
                 android:gravity="center"
                 android:button="@null"/>
             <RadioButton
+                android:id="@+id/rbmudidiId"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:layout_height="wrap_content"
+                android:textColor="@color/huise"
+                android:layout_height="match_parent"
                 android:text="目的地"
                 android:textSize="16sp"
                 android:button="@null"/>
             <RadioButton
+                android:id="@+id/rbshequId"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="wrap_content"
+                android:textColor="@color/huise"
+                android:layout_height="match_parent"
                 android:text="社区"
                 android:gravity="center"
                 android:textSize="16sp"
@@ -59,6 +66,7 @@
                 android:layout_marginRight="30dp"
                 />
             <ImageView
+                android:id="@+id/imageViewTou"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:src="@mipmap/tou"
